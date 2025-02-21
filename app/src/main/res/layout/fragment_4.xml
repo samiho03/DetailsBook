@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0EB"
+    tools:context=".Fragment4">
+
+    <ImageView
+        android:id="@+id/pic4"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/pic7"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/pic4"
+        android:text="Hi, I’m Anne! I’m an enthusiastic and dedicated student who loves learning and exploring new opportunities. I enjoy working with others, embracing challenges, and continuously growing both academically and personally."/>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0EB"
+    tools:context=".Fragment2">
+
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/pic5"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/pic2"
+        android:text="Hi, I’m Sarah! I’m a curious and hardworking student who thrives on learning new things. I enjoy collaborating with others, participating in extracurricular activities, and constantly pushing myself to grow and improve."/>
+
+
+</RelativeLayout>

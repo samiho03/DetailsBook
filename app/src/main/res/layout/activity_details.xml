@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ErrorPage">
+
+    <LinearLayout
+        android:id="@+id/sidebar"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:background="#D6EDD5"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/frogs"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:src="@drawable/pic3"/>
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#00FFFFFF"
+            android:textColor="#03593F"
+            android:gravity="start|center_vertical"
+            android:text="Emily"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Sarah"
+            android:background="#00FFFFFF"
+            android:textColor="#03593F"
+            android:gravity="start|center_vertical"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="David"
+            android:background="#00FFFFFF"
+            android:textColor="#03593F"
+            android:gravity="start|center_vertical"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Anne"
+            android:background="#00FFFFFF"
+            android:textColor="#03593F"
+            android:gravity="start|center_vertical"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Tomas"
+            android:background="#00FFFFFF"
+            android:textColor="#03593F"
+            android:gravity="start|center_vertical"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:text="←"
+            android:layout_marginLeft="-18dp"
+            android:layout_marginTop="130dp"
+            android:textAlignment="textStart"
+            android:textColor="#3e2723"
+            android:textSize="36dp"
+            android:gravity="start|center_vertical"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+    android:id="@+id/fragmentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_toRightOf="@id/sidebar"
+    android:padding="16dp"
+    android:background="#F0F0F0" />
+
+</RelativeLayout>

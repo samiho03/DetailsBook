@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0EB"
+    tools:context=".Fragment1">
+
+    <ImageView
+        android:id="@+id/pic1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/pic4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/pic1"
+        android:text="Hi, I’m Emily! I’m a passionate learner who loves taking on challenges. I excel in academics, actively participate in extracurricular activities, and enjoy developing my skills to achieve success." />
+
+</RelativeLayout>

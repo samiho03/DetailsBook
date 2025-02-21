@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0EB"
+    tools:context=".Fragment5">
+
+    <ImageView
+        android:id="@+id/pic5"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/pic8"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/pic5"
+        android:text="Hi, I’m Tomas! I’m a focused and driven student with a passion for learning and problem-solving. I enjoy collaborating with others, taking on challenges, and always striving to achieve excellence."/>
+
+</RelativeLayout>

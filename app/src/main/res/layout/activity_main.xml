@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0EB"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:src="@drawable/pic1" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/bgView"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_below="@id/img1"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="#D6EDD5"
+        app:cardCornerRadius="40dp"
+        app:shapeAppearanceOverlay="@style/RoundedTopCornersShape"
+        app:strokeWidth="0dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nicInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxBackgroundColor="#FFFFFF"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@android:color/transparent"
+        app:shapeAppearanceOverlay="@style/RoundedCorner">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nicInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter NIC Number"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nicInputLayout"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        app:backgroundTint="#0D0C0C"
+        app:cornerRadius="30dp"
+        app:shapeAppearanceOverlay="@style/RoundedCorner" />
+
+</RelativeLayout>

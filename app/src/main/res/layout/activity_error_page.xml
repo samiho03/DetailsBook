@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0EB"
+    tools:context=".ErrorPage">
+
+    <ImageView
+        android:id="@+id/errorpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/pic2" />
+
+    <TextView
+        android:id="@+id/errorT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/errorpic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-30dp"
+        android:text="Invalid NIC Try Again!"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/retryButton"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errorT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Retry ↺"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        app:shapeAppearanceOverlay="@style/RoundedCorner"
+        app:backgroundTint="#0D0C0C" />
+
+
+</RelativeLayout>
