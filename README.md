@@ -4,26 +4,32 @@
 
 ---
 
-## 🔐 Login
+## Features
 
-The system begins with a login screen. If an invalid NIC is entered, the user is redirected to an error page.
+- **NIC-Based Login**  
+  Users log into the system using their NIC. Invalid NICs are redirected to a friendly error page.
 
-🖼️ _Insert login interface screenshot here_  
-`![Login Screen](images/login.png)`
+- **Student Sidebar Navigation**  
+  After login, users are shown a clean sidebar that lists student names for quick navigation.
+
+- **Detailed Student View**  
+  Click on any student's name to view detailed information including their profile and academic details.
+
+- **Invalid NIC Handling**  
+  If the entered NIC does not match the system records, the user is taken to a custom error screen.
+
+
+-  **Modern & Attractive UI**  
+  The user interface is simple yet elegant, designed to be responsive and visually pleasing.
+
+
+- **Fast & Lightweight**  
+  Built with Kotlin for performance and snappy response times.
+
 
 ---
 
-## 📚 Student Overview
-
-Upon successful login, users are presented with a sidebar listing student names. Selecting a name reveals that student's detailed information.
-
-🖼️ _Insert sidebar and student details UI screenshots here_  
-`![Sidebar](images/sidebar.png)`  
-`![Student Details](images/student_details.png)`
-
----
-
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Kotlin
 - JavaFX (assumed based on Kotlin UI)
@@ -31,8 +37,42 @@ Upon successful login, users are presented with a sidebar listing student names.
 
 ---
 
-## 🚀 How to Run
+## Interface Preview
 
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/samiho03/DetailsBook.git
+
+
+### Login Screen
+
+ _Login interface where users input their NIC_
+
+![Login Page](https://github.com/samiho03/DetailsBook/blob/main/Images/Login.jpg)
+
+
+###  Error Page
+
+ _Displayed when an invalid NIC is entered_
+
+![Error Page](https://github.com/samiho03/DetailsBook/blob/main/Images/InvalidNIC.jpg)
+
+
+### Student Overview
+
+ _Upon successful login, users are presented with a sidebar listing student names. Selecting a name reveals that student's detailed information._
+
+#### 👤 Student Sarah
+
+![Student Sarah Details](https://github.com/samiho03/DetailsBook/blob/main/Images/Sarah.jpg)
+
+
+#### 👤 Student Tomas
+
+![Student 2 Details](https://github.com/samiho03/DetailsBook/blob/main/Images/Tomas.jpg)
+
+<br/>
+
+---
+
+
+
+
+
